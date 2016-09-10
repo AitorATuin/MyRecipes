@@ -1,3 +1,2 @@
-export GORROT=/Programs/Golang-Bin/Current/dist
-export GOBIN=/Programs/Golang-Bin/Current/dist/bin
+export GOROOT=/Programs/Golang-Bin/Current/dist
 
