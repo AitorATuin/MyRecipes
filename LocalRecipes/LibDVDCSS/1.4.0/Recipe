@@ -1,0 +1,9 @@
+# Recipe for version 1.4.0 by AitorATuin, on Sat Sep 10 16:41:10 CEST 2016
+# author: Guilherme Balestieri Bedin (gbedin)
+
+
+compile_version=1.8.0
+url="http://download.videolan.org/libdvdcss/1.4.0/libdvdcss-1.4.0.tar.bz2"
+file_size=364373
+file_md5=2edba36e6af3f0223c4f0454cdf3d159
+recipe_type=configure
