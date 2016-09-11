@@ -1,0 +1,7 @@
+# Recipe for version 5.0.3 by AitorATuin, on Sat Sep 10 16:38:34 CEST 2016
+compile_version=1.8.0
+url="http://download.videolan.org/videolan/libdvdread/5.0.3/libdvdread-5.0.3.tar.bz2"
+file_size=394885
+file_md5=b7b7d2a782087ed2a913263087083715
+recipe_type=configure
+autogen_before_configure=yes
