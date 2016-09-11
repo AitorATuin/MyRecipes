@@ -1,0 +1,7 @@
+# Recipe for version 3.3.5 by AitorATuin, on Sun Sep 11 22:06:27 CEST 2016
+# Recipe (MakeRecipe) for FFTW by Roko <ro.ko@mcnon.com>, on Thu Sep 30 21:46:16 BRT 2004
+compile_version=1.8.2
+url="http://www.fftw.org/fftw-3.3.5.tar.gz"
+file_size=4148447
+file_md5=6cc08a3b9c7ee06fdd5b9eb02e06f569
+recipe_type=configure
