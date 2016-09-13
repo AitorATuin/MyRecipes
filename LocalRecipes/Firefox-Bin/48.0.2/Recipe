@@ -1,0 +1,13 @@
+# Recipe (MakeRecipe) for Firefox-Bin by AitorATuin, on Tue Sep 13 21:34:19 CEST 2016
+# Recipe for version 48.0.2 by AitorATuin, on Tue Sep 13 21:34:19 CEST 2016
+compile_version=git-20160828
+dir='firefox'
+recipe_type="manifest"
+pre_install() {
+    version=48
+    firefox_dir=${target}/firefox
+    mkdir -p ${firefox_dir}
+    cp -rp * ${firefox_dir}
+    ln -s ${firefox_dir}/firefox ${target}/bin/firefox-${version}
+    ln -s ${firefox_dir}/firefox ${target}/bin/firefox
+}
