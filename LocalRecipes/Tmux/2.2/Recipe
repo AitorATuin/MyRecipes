@@ -1,0 +1,13 @@
+# Recipe for version 2.2 by AitorATuin, on Sat Sep 17 22:03:04 CEST 2016
+# Recipe (MakeRecipe) for Tmux by Jonas Karlsson <jonas@gobolinux.org>, on Sun May 10 22:15:01 CEST 2009
+compile_version=1.12.0
+url="https://github.com/tmux/tmux/releases/download/2.2/tmux-2.2.tar.gz"
+file_size=466852
+file_md5=bd95ee7205e489c62c616bb7af040099
+recipe_type=configure
+environment=(
+   LIBNCURSES_LIBS="-lncurses -ltinfo"
+)
+make_variables=(
+   "PREFIX=$target"
+)
