@@ -1,0 +1,7 @@
+# Recipe for version 4.7.4 by AitorATuin, on Thu Sep 22 23:45:15 CEST 2016
+# Recipe (MakeRecipe) for Tcpdump by roko, <ro.ko@mcnon.com>, on Sun Dec 26 18:44:44 BRST 2004
+compile_version=1.8.0
+url="http://www.tcpdump.org/release/tcpdump-4.7.4.tar.gz"
+file_size=1153657
+file_md5=58af728de36f499341918fc4b8e827c3
+recipe_type=configure
