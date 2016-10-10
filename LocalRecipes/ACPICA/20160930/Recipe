@@ -1,0 +1,9 @@
+# Recipe (MakeRecipe) for ACPICA by AitorATuin, on Mon Oct 10 22:31:30 CEST 2016
+# Recipe for version 20160930 by AitorATuin, on Mon Oct 10 22:31:30 CEST 2016
+compile_version=git-20160828
+url="https://acpica.org/sites/acpica/files/acpica-unix-20160930.tar.gz"
+file_size=1565724
+file_md5=cd355f3f1e21f2ee76ba6e91e0908a33
+dir='acpica-unix-20160930'
+recipe_type=makefile
+makefile='Makefile'
