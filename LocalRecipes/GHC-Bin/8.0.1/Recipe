@@ -1,0 +1,22 @@
+# Recipe for version 8.0.1 by Aitor ATuin <atuin@tuto.io>, on Sat Dec 24 10:03:45 UTC 2016
+# Recipe for version 7.10.2 by Aitor ATuin <atuin@tuto.io>, on Sun Dec 20 12:03:45 UTC 2015
+# Recipe (MakeRecipe) for GHC by Isaac Dupree <id@isaac.cedarswampstudios.org>, on Sat Jun 23 12:18:16 BRT 2007
+
+# $url is in the arch subdirectory of this recipe!
+
+compile_version=016
+recipe_type=configure
+do_build=no
+dir='ghc-8.0.1'
+
+pre_link() {
+   mkdir -p $settings_target/ghc-8.0.1
+   if [ -e $settings_target/ghc-8.0.1/package.conf ]
+   then
+      rm -f $target/lib/ghc-8.0.1/package.conf
+   else
+      mv $target/lib/ghc-8.0.1/package.conf $settings_target/ghc-8.0.1
+   fi
+   ln -s ../../../Settings/ghc-8.0.1/package.conf $target/lib/ghc-8.0.1/package.conf
+   sed -i "s!PKGCONF=$target/lib!PKGCONF=$settings_target!" $target/bin/ghc-pkg
+}
