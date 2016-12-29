@@ -1,5 +1,5 @@
-# Recipe (MakeRecipe) for Weechat by Aitor P. Iturri, on Sun Dec 25 19:55:46 CET 2016
-# Recipe for version 1.6 by Aitor P. Iturri, on Sun Dec 25 19:55:46 CET 2016
+# Recipe (MakeRecipe) for Weechat by Aitor ATuin <atuin@tuta.io>, on Sun Dec 25 19:55:46 CET 2016
+# Recipe for version 1.6 by Aitor ATuin, on Sun Dec 25 19:55:46 CET 2016
 compile_version=016
 url="https://weechat.org/files/src/weechat-1.6.tar.xz"
 file_size=1816860
