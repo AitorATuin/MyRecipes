@@ -1,5 +1,5 @@
-# Recipe (MakeRecipe) for KeyChain by AitorATuin, on Thu Sep 8 22:14:14 CEST 2016
-# Recipe for version 2.8.3 by AitorATuin, on Thu Sep 8 22:14:14 CEST 2016
+# Recipe (MakeRecipe) for KeyChain by Aitor ATuin <atuin@tuta.io>, on Thu Sep 8 22:14:14 CEST 2016
+# Recipe for version 2.8.3 by Aitor ATuin <atuin@tuta.io>, on Thu Sep 8 22:14:14 CEST 2016
 compile_version=git-20160828
 url="https://github.com/funtoo/keychain/archive/2.8.3.tar.gz"
 file="keychain-2.8.3.tar.gz"
