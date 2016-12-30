@@ -1,4 +1,4 @@
-# Recipe for version 2.1.15 by AitorATuin, on Sat Sep 10 21:39:19 CEST 2016
+# Recipe for version 2.1.15 by Aitor ATuin <atuin@tuta.io>, on Sat Sep 10 21:39:19 CEST 2016
 # Recipe (MakeRecipe) for Gnupg by Giovani Facchini, on Qui Abr 14 17:00:52 BRT 2005
 compile_version=1.8.5
 url="https://www.gnupg.org/ftp/gcrypt/gnupg/gnupg-2.1.15.tar.bz2"
