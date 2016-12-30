@@ -11,7 +11,7 @@ configure_options=(
    --enable-unicode3
    --enable-xft
    --enable-fading
-   --enable-iso14755
+#   --enable-iso14755
    --enable-256-color
    --with-terminfo="$target/share/terminfo"
 )
