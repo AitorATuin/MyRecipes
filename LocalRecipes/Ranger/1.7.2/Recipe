@@ -1,5 +1,5 @@
-# Recipe (MakeRecipe) for Ranger by AitorATuin, on Sat Sep 10 21:13:15 CEST 2016
-# Recipe for version 1.7.2 by AitorATuin, on Sat Sep 10 21:13:15 CEST 2016
+# Recipe (MakeRecipe) for Ranger by Aitor P. Iturri <atuin@tuta.io>, on Sat Sep 10 21:13:15 CEST 2016
+# Recipe for version 1.7.2 by Aitor P. Iturri, on Sat Sep 10 21:13:15 CEST 2016
 compile_version=git-20160828
 url="http://ranger.nongnu.org/ranger-1.7.2.tar.gz"
 file_size=269713
