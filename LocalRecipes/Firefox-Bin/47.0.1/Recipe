@@ -1,0 +1,7 @@
+# Recipe (MakeRecipe) for Firefox-Bin by Aitor Iturri, on Sun Jul 3 18:20:16 CEST 2016
+# Recipe for version 47.0.1 by Aitor Iturri, on Sun Jul 3 18:20:16 CEST 2016
+compile_version=2.0
+url="https://download-installer.cdn.mozilla.net/pub/firefox/releases/47.0.1/linux-i686/en-US/firefox-47.0.1.tar.bz2"
+file_size=54010300
+file_md5=bf087a76d5a16b86c80e3dc101b47bfc
+dir='firefox'
