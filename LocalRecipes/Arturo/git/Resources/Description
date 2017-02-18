@@ -1,0 +1,13 @@
+[Name] Arturo
+[Summary] Command line toolkit for working with Arduino hardware
+[Description] Ino is a command line toolkit for working with Arduino hardware
+Fork of amperka/ino to continue development.
+It allows you to:
+	Quickly create new projects
+	Build a firmware from multiple source files and libraries
+	Upload the firmware to a device
+	Perform serial communication with a device (aka serial monitor)
+It's a for from ino 
+
+[License] MIT License
+[Homepage] https://github.com/scottdarch/Arturo
