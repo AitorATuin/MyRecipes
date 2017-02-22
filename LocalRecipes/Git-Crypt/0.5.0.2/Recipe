@@ -1,0 +1,13 @@
+# Recipe (MakeRecipe) for Git-Crypt by Aitor P. Iturri <atuin@tuta.io>, on mié feb 22 21:35:08 CET 2017
+# Recipe for version 0.5.0.2 by Aitor P. Iturri <atuin@tuta.io>, on mié feb 22 21:35:08 CET 2017
+compile_version=git
+url="https://github.com/AGWA/git-crypt/archive/debian/0.5.0-2.tar.gz"
+file="git-crypt-debian-0.5.0-2.tar.gz"
+file_size=66993
+file_md5=976dcb305ec1148873c87e81f7bb7df0
+dir='git-crypt-debian-0.5.0-2'
+recipe_type=makefile
+makefile='Makefile'
+make_variables=(
+   "PREFIX=$target"
+)

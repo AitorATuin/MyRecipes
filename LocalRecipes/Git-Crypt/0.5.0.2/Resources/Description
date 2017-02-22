@@ -1,0 +1,8 @@
+[Name] Git-Crypt
+[Summary] git-crypt enables transparent encryption and decryption of files in a git repository.
+[Description] git-crypt enables transparent encryption and decryption of files
+in a git repository. Files which you choose to protect are encrypted when
+committed, and decrypted when checked out. git-crypt lets you freely share a
+repository containing a mix of public and private content.
+[License] GNU GPL 3.0 
+[Homepage] https://www.agwa.name/projects/git-crypt/
