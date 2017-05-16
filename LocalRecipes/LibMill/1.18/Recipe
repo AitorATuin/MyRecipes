@@ -1,0 +1,10 @@
+# Recipe (MakeRecipe) for LibMill by Aitor P. Iturri <atuin@tuta.io>, on mar may 16 21:40:33 CEST 2017
+# Recipe for version 1.18 by Aitor P. Iturri <atuin@tuta.io>, on mar may 16 21:40:33 CEST 2017
+compile_version=git
+url="https://github.com/sustrik/libmill/archive/1.18.tar.gz"
+file="libmill-1.18.tar.gz"
+file_size=112086
+file_sha=ff6903cd05f45c4cc050921d03201a93d2723ab59c480eb924f8f1ca8c6f0614
+dir='libmill-1.18'
+recipe_type=configure
+autogen_before_configure=yes

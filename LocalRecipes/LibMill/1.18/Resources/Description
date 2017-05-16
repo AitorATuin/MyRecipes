@@ -1,0 +1,7 @@
+[Name] LibMill
+[Summary] Libmill is a library that introduces Go-style concurrency to C
+[Description] Libmill is a library that introduces Go-style concurrency to C.
+It can execute up to 20 million coroutines and 50 million context switches per
+second.
+[License] MIT
+[Homepage] http://libmill.org/index.html
