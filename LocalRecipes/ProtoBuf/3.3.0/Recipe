@@ -1,0 +1,9 @@
+# Recipe for version 3.3.0 by Aitor P. Iturri <atuin@tuta.io>, on dom jul 2 22:36:31 CEST 2017
+# Recipe (MakeRecipe) for ProtoBuf by Michael Homer <michael@gobolinux.org>, on Sat Dec 20 13:48:49 NZDT 2008
+compile_version=016.01
+url="https://github.com/google/protobuf/archive/v3.3.0.tar.gz"
+dir=protobuf-3.3.0
+file_size=4336596
+file_sha=94c414775f275d876e5e0e4a276527d155ab2d0da45eed6b7734301c330be36e
+recipe_type=configure
+autogen_before_configure=yes
