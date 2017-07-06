@@ -1,0 +1,9 @@
+# Recipe for version 2.6.0 by Aitor P. Iturri <atuin@tuta.io>, on jue jul 6 22:11:22 CEST 2017
+# Recipe (MakeRecipe) for LibArcus by Aitor P. Iturri <atuin@tuta.io>, on mié jul 5 21:00:59 CEST 2017
+compile_version=git
+url="https://github.com/Ultimaker/libArcus/archive/2.6.0.tar.gz"
+file_size=39516
+file_sha=4031a3b37aed0ddfeb7113d326117e8503be6ad0cc62d0e3d10161c1fdb2f3da
+file="libArcus-2.6.0.tar.gz"
+dir='libArcus-2.6.0'
+recipe_type=cmake
