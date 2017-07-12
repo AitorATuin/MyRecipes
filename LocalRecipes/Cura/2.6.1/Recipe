@@ -1,0 +1,13 @@
+# Recipe (MakeRecipe) for Cura by Aitor P. Iturri <atuin@tuta.io>, on mié jul 12 19:08:07 CEST 2017
+# Recipe for version 2.6.1 by Aitor P. Iturri <atuin@tuta.io>, on mié jul 12 19:08:07 CEST 2017
+compile_version=git
+url="https://github.com/Ultimaker/Cura/archive/2.6.1.tar.gz"
+file="Cura-2.6.1.tar.gz"
+file_size=10033515
+file_md5=57f5e25bff27f7a1d1042e93c260e40b
+dir='Cura-2.6.1'
+recipe_type=cmake
+cmake_options=(
+    "-DURANIUM_DIR=/Programs/Uranium/Current"
+    "-DGETTEXT_MSGINIT_EXECUTABLE=/bin/gettext"
+)

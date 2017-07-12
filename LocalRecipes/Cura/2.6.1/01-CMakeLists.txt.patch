@@ -1,0 +1,37 @@
+--- Cura-2.6.1_orig/CMakeLists.txt	2017-06-27 16:41:58.000000000 +0200
++++ Cura-2.6.1/CMakeLists.txt	2017-07-12 21:57:48.011576732 +0200
+@@ -7,7 +7,7 @@
+ include(GNUInstallDirs)
+ 
+ set(URANIUM_DIR "${CMAKE_SOURCE_DIR}/../Uranium" CACHE DIRECTORY "The location of the Uranium repository")
+-set(URANIUM_SCRIPTS_DIR "${URANIUM_DIR}/scripts" CACHE DIRECTORY "The location of the scripts directory of the Uranium repository")
++set(URANIUM_SCRIPTS_DIR "${URANIUM_DIR}/resources/scripts" CACHE DIRECTORY "The location of the scripts directory of the Uranium repository")
+ 
+ # Tests
+ include(CuraTests)
+@@ -23,10 +23,10 @@
+ configure_file(cura/CuraVersion.py.in CuraVersion.py @ONLY)
+ 
+ if(NOT ${URANIUM_DIR} STREQUAL "")
+-    set(CMAKE_MODULE_PATH "${URANIUM_DIR}/cmake")
++    set(CMAKE_MODULE_PATH "${URANIUM_DIR}/share/cmake-${CMAKE_MAJOR_VERSION}.${CMAKE_MINOR_VERSION}/Modules")
+ endif()
++
+ if(NOT ${URANIUM_SCRIPTS_DIR} STREQUAL "")
+-    list(APPEND CMAKE_MODULE_PATH ${URANIUM_DIR}/cmake)
+     include(UraniumTranslationTools)
+     # Extract Strings
+     add_custom_target(extract-messages ${URANIUM_SCRIPTS_DIR}/extract-messages ${CMAKE_SOURCE_DIR} cura)
+@@ -46,10 +46,10 @@
+             PERMISSIONS OWNER_READ OWNER_WRITE OWNER_EXECUTE GROUP_READ GROUP_EXECUTE WORLD_READ WORLD_EXECUTE
+             RENAME cura)
+     install(DIRECTORY cura
+-            DESTINATION lib/python${PYTHON_VERSION_MAJOR}/dist-packages
++            DESTINATION lib/python${PYTHON_VERSION_MAJOR}.${PYTHON_VERSION_MINOR}/site-packages
+             FILES_MATCHING PATTERN *.py)
+     install(FILES ${CMAKE_BINARY_DIR}/CuraVersion.py
+-            DESTINATION lib/python${PYTHON_VERSION_MAJOR}/dist-packages/cura)
++            DESTINATION lib/python${PYTHON_VERSION_MAJOR}.${PYTHON_VERSION_MINOR}/site-packages/cura)
+     install(FILES ${CMAKE_BINARY_DIR}/cura.desktop
+             DESTINATION ${CMAKE_INSTALL_DATADIR}/applications)
+     install(FILES cura.appdata.xml

@@ -1,0 +1,8 @@
+[Name] Cura
+[Summary] 3D printer / slicing GUI built on top of the Uranium framework 
+[Description] This is the new, shiny frontend for Cura. daid/Cura is the old
+legacy Cura that everyone knows and loves/hates.
+We re-worked the whole GUI code at Ultimaker, because the old code started to
+become a unmaintainable.
+[License] AGPL3
+[Homepage] https://github.com/Ultimaker/Cura
