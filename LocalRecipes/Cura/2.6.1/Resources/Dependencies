@@ -1,3 +1,4 @@
 Python >= 3.5.0
 CuraEngine >= 2.6.0
 Uranium >= 2.6.0
+PIP3:scipy
