@@ -1,0 +1,9 @@
+# Recipe (MakeRecipe) for Uranium by Aitor P. Iturri <atuin@tuta.io>, on mar jul 11 20:12:41 CEST 2017
+# Recipe for version 2.6.0 by Aitor P. Iturri <atuin@tuta.io>, on mar jul 11 20:12:41 CEST 2017
+compile_version=git
+url="https://github.com/Ultimaker/Uranium/archive/2.6.0.tar.gz"
+file="Uranium-2.6.0.tar.gz"
+file_size=826489
+file_md5=ead78646faa4ef17b055664c5aa4f157
+dir='Uranium-2.6.0'
+recipe_type=cmake
