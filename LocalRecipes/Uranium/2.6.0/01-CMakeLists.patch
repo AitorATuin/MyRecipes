@@ -1,0 +1,11 @@
+--- Uranium-2.6.0_orig/CMakeLists.txt	2017-06-15 09:30:55.000000000 +0200
++++ Uranium-2.6.0/CMakeLists.txt	2017-07-12 21:26:53.857492637 +0200
+@@ -48,7 +48,7 @@
+ if(APPLE OR WIN32)
+     install(DIRECTORY UM DESTINATION lib/python${PYTHON_VERSION_MAJOR}.${PYTHON_VERSION_MINOR}/site-packages)
+ else()
+-    install(DIRECTORY UM DESTINATION lib/python${PYTHON_VERSION_MAJOR}/dist-packages)
++    install(DIRECTORY UM DESTINATION lib/python${PYTHON_VERSION_MAJOR}.${PYTHON_VERSION_MINOR}/site-packages)
+ endif()
+ install(FILES ${CMAKE_SOURCE_DIR}/cmake/UraniumTranslationTools.cmake
+         DESTINATION ${CMAKE_INSTALL_DATADIR}/cmake-${CMAKE_MAJOR_VERSION}.${CMAKE_MINOR_VERSION}/Modules/ )
